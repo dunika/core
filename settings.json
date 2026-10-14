@@ -1,0 +1,203 @@
+{
+  // === Editor Settings ===
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 200,
+  "editor.snippetSuggestions": "bottom",
+  "editor.suggest.preview": true,
+  "editor.suggest.showMethods": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {},
+  // === File Settings ===
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/.terraform": true,
+    "**/cdk.out": true
+  },
+  "files.watcherExclude": {
+    "**/cdk.out": true,
+    "**/.terraform": true,
+    "**/node_modules": true
+  },
+  // === Search Settings ===
+  "search.exclude": {
+    "**/cdk.out": true,
+    "**/node_modules": true,
+    "**/.terraform": true
+  },
+  "search.useGlobalIgnoreFiles": true,
+  // === Workbench Settings ===
+  "workbench.colorTheme": "Gruvbox Material Dark",
+  "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.editor.wrapTabs": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "git-rebase-todo": "default"
+  },
+  "workbench.enableExperiments": false,
+  // === Terminal Settings ===
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.scrollback": 5000,
+  "terminal.integrated.localEchoStyle": "dim",
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "/bin/zsh",
+      "args": [
+        "-l"
+      ]
+    }
+  },
+  // === Git Settings ===
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.ignoreRebaseWarning": true,
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "never",
+  // === GitHub Settings ===
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "github.copilot.advanced": {
+    "authProvider": "github"
+  },
+  "githubPullRequests.pullBranch": "never",
+  // === Chat & AI Settings ===
+  "chat.commandCenter.enabled": true,
+  // === Language-Specific Settings ===
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "keep",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    }
+  },
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "shakram02.bash-beautify"
+  },
+  // === Language/Tool Settings ===
+  "yaml.format.enable": true,
+  "yaml.customTags": [
+    "!And",
+    "!If",
+    "!Not",
+    "!Equals",
+    "!Or",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Join sequence",
+    "!And sequence",
+    "!If sequence",
+    "!Not sequence",
+    "!Equals sequence",
+    "!Or sequence",
+    "!FindInMap",
+    "!Join",
+    "!Sub sequence",
+    "!ImportValue sequence",
+    "!Split sequence"
+  ],
+  "typescript.tsserver.log": "off",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "deno.enable": false,
+  "bashBeautify.tabSize": 2,
+  "css.validate": false,
+  "html.format.contentUnformatted": "",
+  // === Extension Settings ===
+  "emmet.showExpandedAbbreviation": "never",
+  "emmet.triggerExpansionOnTab": true,
+  "redhat.telemetry.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "jest.useJest30": true,
+  "jest.virtualFolders": [],
+  // === Spell Checker Settings ===
+  "cSpell.languageSettings": [],
+  "cSpell.trustedWorkspace": false,
+  // === Diff Editor Settings ===
+  "diffEditor.codeLens": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  // === Debug Settings ===
+  "debug.javascript.terminalOptions": {},
+  // === Notebook Settings ===
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  // === Settings Sync ===
+  "settingsSync.ignoredExtensions": [
+    "xyz.local-history"
+  ],
+  "settingsSync.ignoredSettings": [
+    "http.proxy",
+    "local-history.path"
+  ],
+  // === Misc Settings ===
+  "breadcrumbs.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "markdown.preview.fontFamily": "'Hack Nerd Font', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif"
+}

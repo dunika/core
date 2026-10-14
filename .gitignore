@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+zsh/.zsh_history
+zsh/.zcompdump*
+zsh/.zsh_sessions/
+zsh/zcompdump/
+zsh/work/
+zsh/ohmyzsh/
