@@ -17,11 +17,11 @@ These packages are available from [Homebrew](https://formulae.brew.sh/formula/po
 Set your terminal font to **Hack Nerd Font**; the VS Code preferences use
 **Fira Code** for the editor and **Hack Nerd Font** for the terminal.
 
-Clone the standalone Core repository, replacing `REPOSITORY_URL` with its clone
-URL. Include submodules to fetch [enhancd](https://github.com/b4b4r07/enhancd):
+Clone [dunika/core](https://github.com/dunika/core) with submodules to fetch
+[enhancd](https://github.com/b4b4r07/enhancd):
 
 ```sh
-git clone --recurse-submodules REPOSITORY_URL "$HOME/core"
+git clone --recurse-submodules https://github.com/dunika/core.git "$HOME/core"
 bash "$HOME/core/zsh/_core/setup.sh"
 ```
 
@@ -94,5 +94,5 @@ CPU uses Core at `core/` as a submodule. Its startup files source Core by path;
 CPU-specific launchers, work configuration, backups, and history remain in CPU.
 Commit changes in Core first, then stage `core` in CPU to record the new commit.
 
-The CPU submodule URL is currently local-only. Set it to Core's separate remote
-before using CPU on another machine. Select a license before public release.
+The CPU submodule uses `https://github.com/dunika/core.git` as its remote.
+No license has been selected yet.
