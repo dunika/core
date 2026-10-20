@@ -95,4 +95,7 @@ CPU-specific launchers, work configuration, backups, and history remain in CPU.
 Commit changes in Core first, then stage `core` in CPU to record the new commit.
 
 The CPU submodule uses `https://github.com/dunika/core.git` as its remote.
-No license has been selected yet.
+
+## License
+
+[MIT](LICENSE).
